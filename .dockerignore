@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.gitignore
+.env
+.env.*
+README.md
+AGENTS.md
+.agents
+.cursorrules
+coverage
+*.log
+.DS_Store
+
