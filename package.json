@@ -12,6 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+    "start:migrate": "npx prisma migrate deploy && node dist/main",
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
     "prisma:generate": "prisma generate",
