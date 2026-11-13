@@ -1,0 +1,7 @@
+# Cursor Rules - NestJS Clean Architecture & SOLID
+
+Please refer to `AGENTS.md` for full project conventions:
+- Strict Clean Architecture (Domain -> Application -> Infrastructure -> Presentation).
+- Full SOLID adherence: DIP via Symbol Tokens & Repository Interfaces; SRP via Single-action Use Cases; Rich Domain Model Invariants.
+- No direct Prisma queries inside Controllers or Use Cases.
+
